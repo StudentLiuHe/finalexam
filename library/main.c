@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "include/library.h"
+#include "include/all.h"
 #define NUM_V 5
 int main(void)
 {
