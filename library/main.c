@@ -55,16 +55,16 @@ int main(void)
   printf("Stack is empty? %d\n",is_empty());
   //test queue
 	Initqueue();
-	printf("the queue is empty? %d\n",is_empty());
+	printf("the queue is empty? %d\n",is_empty_queue());
 	enqueue(1);
 	enqueue(2);
 	enqueue(4);
-	printf("the queue is empty? %d\n",is_empty());
+	printf("the queue is empty? %d\n",is_empty_queue());
 	printf("the length of queue is :%d\n",queuetraverse());
 	printf("top number in the queue is %d\n",gethead());
 	printf("dequeue number is %d\n",dequeue());
 	Destroyqueue();
-	printf("the queue is empty? %d\n",is_empty());
+	printf("the queue is empty? %d\n",is_empty_queue());
   //test tree
   TREE tr;
     tnode np;
