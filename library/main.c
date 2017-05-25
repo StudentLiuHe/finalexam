@@ -85,7 +85,7 @@ int main(void)
         print_sorted_tree(tr);
     }
     //test graph
-    struct node graph[NUM_V];
+    struct Data graph[NUM_V];
 
     for(i=1; i<NUM_V; i++) {
         (graph+i)->element = i;
