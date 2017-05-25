@@ -128,7 +128,7 @@ void Destroyqueue()
 }
 int dequeue()
 {	
-	if(is_empty())
+	if(is_empty_queue())
 		return 0;
 	Qnode *p=NULL;
 	p=Q.front->next;
@@ -140,7 +140,7 @@ int dequeue()
 	free(p);
 	return e;
 }
-int is_empty()
+int is_empty_queue()
 {
 	if(Q.front==Q.rear)
 		return 1;
@@ -149,7 +149,7 @@ int is_empty()
 }
 int gethead()
 {
-	if(is_empty())
+	if(is_empty_queue())
 	{
 		return 0;
 	}
