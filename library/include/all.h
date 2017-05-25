@@ -37,7 +37,7 @@ linkqueue Q;
 void Initqueue();
 void Destroyqueue();
 int dequeue();
-int is_empty();
+int is_empty_queue();
 int gethead();
 void enqueue(int e);
 int queuetraverse();
